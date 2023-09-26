@@ -1,0 +1,2035 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 300vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right top, #e3951e, #c8b647, #b3cf7c, #aee2b2, #c2efde, #c0efe2, #bef0e6, #bcf0ea, #8ee7d3, #63dcb5, #3ed08f, #25c262);
+}
+header{
+    background:url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/nav-bg.gif") repeat-x scroll 0 -5px #e2e1e1;
+  position: relative;
+  left: 4%;
+  padding: 4px 8px;
+  top: 1%;
+    height: 32px;
+    width: 90vw;
+   
+}
+.head1{
+    display: flex;
+    float: left;
+    padding: 2px 15px;
+    background:url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/nav-bg.gif") repeat-x scroll 0 -5px #e2e1e1;
+    line-height: 25px;
+}
+.head2{
+    display: flex;
+    margin-left: -700px;
+    float: right;
+}
+.head2 li{
+    cursor: pointer;
+    width: 170px;
+    margin-left: 20px;
+    list-style: none;
+   
+}
+.head1 li{
+    cursor: pointer;
+    list-style: none;
+    width: 100px;
+    display: inline-block;
+    border-right: 1px solid grey;
+    padding-left: 20px;
+}
+.head2 p{
+    margin-left: 10px;
+}
+
+.head1 li:nth-child(3){
+    border: none;
+}
+.head2 li:nth-child(1){
+    margin-left: 20px;
+    border-right: 1px solid grey;
+}
+.small-txt{
+    color: black;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 570;
+}
+.medium-txt{
+    color: black;
+    font-size: 17px;
+    font-weight: 570;
+}
+.large-txt{
+    color: black;
+    font-size: 22px;
+    margin-top: -2px;
+    font-weight: 570;
+}
+select{
+    margin-left: 5px;
+    padding: 3px;
+}
+.main-body{
+    height: 100vh;
+    width: 90vw;
+    left: 4%;
+    position: relative;
+}
+/* =======head start ====== */
+main{
+    height: 110px;
+    width: 90vw;
+    position: relative;
+    top: 20px;
+    border-bottom: 7px solid #c05433;
+    background-image: url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/header.jpg");
+}
+.head-left-con{
+    float: left;
+    padding: 7px;
+
+}
+.head-left-img1{
+    width: 390px;
+    margin-left: -320px;
+    height: 100px;
+}
+.head-left-img2{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 68px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+.head-left-img3{
+    position: relative;
+    top: -10px;
+    left: 330px;
+    height: 80px;
+}
+.head-left-con input{
+    position: relative;
+    left: 350px;
+    top: -44px;
+    padding: 10px 13px;
+    border: none;
+
+}
+.head-left-con button{
+    position: relative;
+    left: 347px;
+    cursor: pointer;
+    top: -44px;
+    padding: 8px 7px;
+    border: none;
+    background: #c05433;
+    color: white;
+}
+/* ==== nav code start =====  */
+nav{display: block;
+    position: relative;
+    top: 3%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    width: 90vw;
+    background:url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/nav-bg.gif") repeat-x scroll 0 -5px #e2e1e1;
+ 
+}
+.container {
+    overflow: hidden;
+    width: 90vw;
+ position: relative;
+ top: -19px;
+    /* background-color: #333; */
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    width: 184px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    z-index: 1;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color:#c05433;
+    color: white;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color:#c05433;
+    min-width: 160px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* ====slider ===== */
+.container2 {
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    position: relative;
+    width:90vw;
+    height: 500px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 25%;
+    /* color: white; */
+    user-select: none;
+  
+  }
+  .container2 input {
+    display: none;
+  }
+  .container2 .slide_img {
+    position: absolute;
+    width:90vw;
+    background-size: cover;
+    height:350px;
+    z-index: -1;
+  }
+  .container2 .slide_img img {
+    width: inherit;
+    height: inherit;
+  }
+  .container2 .slide_img .prev, .container2 .slide_img .next {
+    height: 10px;
+    width: 50px;
+  
+    transition: 0.45s; 
+    background-color:transparent;
+    cursor: pointer;
+    text-align: center;
+  }
+  .container2 .slide_img .next {
+    right: 550px;
+    top: 270px;
+  }
+  .container2 .slide_img .prev {
+    left:550px;
+    top: 270px;
+  }
+  .container2 .slide_img .prev:hover, .container2 .slide_img .next:hover {
+    transition: 0.3s;
+  
+  }
+ .container2 .slide_img .prev span, .container2 .slide_img .next span {
+   color: white;
+   font-size: 40px;
+  } 
+  
+ 
+  .container2 #nav_slide {
+    width: 100%;
+    bottom: 12%;
+    height: 11px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    cursor: default;
+  }
+  .container2 #nav_slide .dots {
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 3px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .container2 #nav_slide #dot1:hover {
+    background: #795548;
+  }
+  .container2 #nav_slide #dot2:hover {
+    background: #F44336;
+  }
+  .container2 #nav_slide #dot3:hover {
+    background: #2196F3;
+  }
+  .container2 #nav_slide #dot4:hover {
+    background: #4CAF50;
+  }
+  
+  #i1:checked ~ #one,
+  #i2:checked ~ #two,
+  #i3:checked ~ #three,
+  #i4:checked ~ #four {
+    z-index: 9;
+    animation: scroll 1s ease-in-out;
+  }
+  
+  #i1:checked ~ #nav_slide #dot1 {
+    background: #795548;
+  }
+  
+  #i2:checked ~ #nav_slide #dot2 {
+    background: #F44336;
+  }
+  
+  #i3:checked ~ #nav_slide #dot3 {
+    background: #2196F3;
+  }
+  
+  #i4:checked ~ #nav_slide #dot4 {
+    background: #4CAF50;
+  }
+  
+  @keyframes scroll {
+    0% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 685px) {
+    .container2 {
+      border: none;
+      width: 100%;
+      height: 0;
+      padding-bottom: 55%;
+    }
+    .container2 .slide_img .prev, .container2 .slide_img .next {
+      width: 15%;
+    }
+    .container .slide_img .prev span, .container .slide_img .next span {
+      border: solid 12px;
+    }
+    .container .slide_img .prev span {
+      border-color: transparent #fff transparent transparent;
+    }
+    .container .slide_img .next span {
+      border-color: transparent transparent transparent #fff;
+    }
+    .container #nav_slide .dots {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  /* =====slider ends ===== */
+  .img-text{
+    width: 90vw;
+    height: 80px;
+    font-size: 20px;
+    background-color: #21463f;
+    padding: 5px 10px;
+    position: relative;
+    color: white;    text-align: center;
+    align-items: center;
+  }
+
+
+
+
+  /* ======marquee===== */
+  .marquee {
+    width: 83vw;
+    /* padding:40px; */
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee:hover .marquee__item {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+  }
+  .marquee__seperator {
+    margin: 0 2rem;
+    /* padding-left: 20px; */
+  }
+  .marquee__item {
+    display: inline-block;
+    width: 84vw;
+   
+    will-change: transform;
+    -webkit-animation: marquee 10s linear infinite;
+            animation: marquee 10s linear infinite;
+  }
+  
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .marquee {
+    background-color: #c05433;
+    padding: 1rem 20px;
+  
+    color: #fff;
+  }
+  .maquee-text{
+    position: relative;
+    left:89.3%;color:white;
+    height: 51px;
+    padding-top: 15px;
+    width: 131px;
+    text-align: center;
+    align-items: center;
+    top: -51px;
+    background-color:#c05433;
+  }
+  .maquee-text a{
+  
+    color: white;
+  }
+  /* ===.marquee ends ===== */
+  .triangle-down {
+    width: 0;
+    height: 0;
+    position: relative;
+    top: -9%;
+    left: 50%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #c05433;
+  }
+  .con-box-main{
+    height: 580px;
+    position: relative;
+    width: 90vw;
+    top: -12%;
+    z-index: -1;
+    background-image: url("https://www.joinindianarmy.nic.in/writereaddata/Portal/Images/applyonline-bg.jpg");
+  }
+  .con-div1{
+    height: 200px;
+    background-color: white;
+    width: 87vw;
+    left: 30px;
+    top: 20px;
+    padding: 20px;
+    border: 3px solid #c05433;
+   position: relative;
+  }
+  .con-div1 ul{
+    width: 900px;
+    /* background-color: #1c1c1c; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -49px;
+    margin-left: 200px;
+
+  }
+  .con-div1 ul li{
+    list-style: none;
+    width: 140px;
+    height: 80px;
+    border-right: 1px dotted grey;
+    padding: 20px;
+  }
+  #pointer {
+    width: 200px;
+    height: 40px;
+    left: -27px;
+    padding: 10px;
+    position: relative;
+    background:#c05433;
+  }
+  #pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #c05433;
+    border-top: 30px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #c05433;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer h1{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+    .sec-btn{
+      height: 60px;
+      width: 120px;
+      /* text-align: center; */
+      padding: 10px;
+      position: relative;
+      left: 87%;
+      top: -100%;
+      align-items: center;
+      background-color: #c05433;
+    }
+    .sec-btn h2{
+      color: white;
+      font-size: 15px;
+    }
+    .sec-btn button img{
+      background-color: #1c1c1c;
+      color: white;
+      height: 60px;
+      width: 40px;
+      position: absolute;
+      top: 0px;
+      left: 110px;
+      font-size: 20px;
+    }
+
+
+
+    .con-div2{
+      height: 230px;
+      background-color: white;
+      width: 87vw;
+    border-top: none;
+      left: 30px;
+      top: -71px;
+      padding: 20px;
+      border: 3px solid #2a5744;
+     position: relative;
+    }
+    .con-div2 ul{
+      width: 900px;
+      /* background-color: #1c1c1c; */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: -49px;
+      margin-left: 180px;
+  
+    }
+    .con-div2 ul li{
+      list-style: none;
+      width: 145px;
+      cursor: pointer;
+      height: 80px;
+      text-align: center;
+      border-right: 1px dotted grey;
+      padding: 10px;
+    }
+    .con-div2 ul li img{
+      align-items: center;
+      margin-left: 10px;
+    }
+    #pointer2 {
+      width: 200px;
+      height: 40px;
+      left: -27px;
+      padding: 10px;
+      position: relative;
+      background:#2a5744;
+    }
+    #pointer2:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid #2a5744;
+      border-top: 30px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
+    #pointer2:before {
+      content: "";
+      position: absolute;
+      right: -20px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid #2a5744;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
+    #pointer2 h1{
+      color: white;
+      font-size: 20px;
+      margin-left: 10px;
+    }
+      .sec-btn2{
+        height: 60px;
+        width: 120px;
+        cursor: pointer;
+        /* text-align: center; */
+        padding: 10px;
+        position: relative;
+        left: 87%;
+        top: -70%;
+        align-items: center;
+        background-color: #2a5744;
+      }
+      .sec-btn2 h2{
+        color: white;
+        font-size: 15px;
+      }
+      .sec-btn2 button img{
+        background-color: #1c1c1c;
+        color: white;
+        height: 60px;
+        width: 40px;
+        position: absolute;
+        top: 0px;
+        left: 110px;
+        font-size: 20px;
+      }
+
+      .marquee2{
+        width: 83vw;
+        /* padding:40px; */
+        margin-top: 60px;
+        cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .marquee2:hover .marquee__item2{
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused;
+      }
+      .marquee__seperator2 {
+        margin: 0 2rem;
+        /* padding-left: 20px; */
+      }
+      .marquee__item2 {
+        display: inline-block;
+        width: 84vw;
+       
+        will-change: transform;
+        -webkit-animation: marquee1 10s linear infinite;
+                animation: marquee1 10s linear infinite;
+      }
+      
+      @-webkit-keyframes marquee1 {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      
+      @keyframes marquee1 {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      .marquee2 {
+        background-color: #2a5744;
+        padding: 1rem 20px;
+      cursor: pointer;
+        color: #fff;
+      }
+      .maquee-text2{
+        position: relative;
+        left:89.7%;color:white;
+        height: 51px;
+        padding-top: 15px;
+        width: 131px;
+        text-align: center;
+        align-items: center;
+        top: -51px;
+        background-color:#2a5744;
+      }
+      .maquee-text2 a{
+      
+        color: white;
+      }
+
+  
+
+      .triangle-down2 {
+        width: 0;
+        height: 0;
+        position: relative;
+        top: -9%;
+        left: 50%;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 20px solid #2a5744;
+        z-index: 1;
+      }
+    
+      .item2{
+        height: 500px;
+        width: 90vw;
+        position: relative;
+        top: 535px;
+        left: 4%;
+        background-image: url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/mid-container-bg.jpg");
+      }
+      .flex-item{
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-around;
+      }
+      .holder { 
+        background-color:whitesmoke;
+        width:300px;
+        height:250px;
+        border: 1px solid #ddd;
+        overflow:hidden;
+        padding:10px;
+        font-family:Helvetica;
+      }
+      .holder-text{
+        height: 60px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #c05433;
+        border-bottom: 1px solid black;
+      }
+      .holder .mask {
+        position: relative;
+        left: 0px;
+        top: 10px;
+        width:300px;
+        height:240px;
+        overflow: hidden;
+      }
+      .view{
+       padding: 10px;
+      background-color: whitesmoke;
+      }
+      .view img{
+    top: 4px;
+      position: relative;
+      }
+      .view a{
+        color:#c05433;
+        font-size: 12px;
+      }
+      .holder ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+        position: relative;
+      }
+      .holder ul li {
+        padding:10px 0px;
+      }
+      .holder ul li a {
+        color:darkred;
+        text-decoration:none;
+      }
+
+      /* ===== img slider ====  */
+.flex-con2{
+  background-color: whitesmoke;
+  border: 1px solid #ddd;
+  width: 260px;
+  text-align: center;
+}
+.view2{
+position: relative;
+top: 210px;
+text-align: left;
+  padding: 10px;
+ background-color: whitesmoke;
+ }
+ .view2 img{
+top: 4px;
+ position: relative;
+ }
+ .view2 a{
+   color:#c05433;
+   font-size: 12px;
+ }
+.flex-con2-text{
+  height: 40px;
+  font-size: 12px;
+  background-color:#ddd;
+}
+
+      .mySlides {
+        display: none;
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        /* width: 20%; */
+        height: 10%;
+        /* max-height: 100vh; */
+        margin: auto;
+    }
+    /* The dots/bullets/indicators */
+    .mySlides img{
+      margin-top: 4px;
+      height: 200px;
+      width: 260px;
+    }
+    
+    
+    .active {
+        background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+    
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+    
+        to {
+            opacity: 1
+        }
+    }
+    
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+    
+        .prev,
+        .next,
+        .text {
+            font-size: 11px
+        }
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        width: auto;
+        background-color: #717171;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .prev{
+      left:360px;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        right: 652px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .flex-con3{
+      background-color: whitesmoke;
+      border: 1px solid #ddd;
+      width: 260px;
+      text-align: center;
+    }
+    .flex-con3 h1{
+      font-size: 25px;
+    }
+    .flex-con3 video{
+      height: 260px;
+      margin-top: -50px;
+      width: 260px;
+    }
+    .holder-text2{
+      height: 40px;
+      font-weight: 600;
+      font-size: 20px;
+      color:#2a5744;
+      border-bottom: 1px solid black;
+    }
+    .view3{
+      padding: 10px;
+     background-color: whitesmoke;
+     }
+     .view3 img{
+   top: 4px;
+     position: relative;
+     }
+     .view3 a{
+       color:#c05433;
+       margin-left: -140px;
+       font-size: 12px;
+     }
+
+     /* =====bottom div=====  */
+     .bottom-div{
+      height: 50px;
+      padding: 5px;
+      width: 90vw;
+      text-align: center;
+      align-items: center;
+      background-image: url("https://joinindianarmy.nic.in/writereaddata/Portal/images/footer-link-bg.jpg");
+     }
+     .bottom-div ul{
+      display: flex;
+      margin: 1px 2px;
+      
+      width: 89vw;
+      border-top: 2px solid white;
+      border-bottom: 1px solid white;
+      /* padding-bottom: 1px; */
+      justify-content: space-around;
+     }
+     .bottom-div ul li{
+      list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    padding: 10px;
+     
+    width: 20%;
+    border-right: 1px solid #fff;
+    text-align: center;
+}
+     
+     .bottom-div ul li a{
+      color: white;
+      text-decoration: none;
+     }
+     footer{
+      padding: 4px;
+     }
+     footer ul li{
+      float: left;
+      margin: 0;
+      /* padding: 0; */
+      float: left;
+       
+      /* width: 10%; */
+      border-right: 1px solid gray;
+      text-align: center;
+      padding: 10px;
+      list-style: none;
+    color: #6d6e71;
+    text-decoration: none;
+    font-size:15px;
+     }
+     footer .copyright{
+      top: 20px;
+      position: relative;
+      left: -730px;
+      color: #6d6e71;
+     }
+     footer .copyright a{
+      color: blue;
+     }
+     .footer-right{
+      position:absolute;
+      left: 980px;
+      top: 380px;
+     }
+     .footer-right img{
+      height: 50px;
+      width: 100px;
+     }
+
+     @media screen and (max-width: 768px){
+
+      body{
+        width: 100vw;
+        height: 300vh;
+        overflow-x: hidden;
+        background-image: linear-gradient(to right top, #e3951e, #c8b647, #b3cf7c, #aee2b2, #c2efde, #c0efe2, #bef0e6, #bcf0ea, #8ee7d3, #63dcb5, #3ed08f, #25c262);
+    }
+    header{
+        background:url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/nav-bg.gif") repeat-x scroll 0 -5px #e2e1e1;
+      position: relative;
+    left: -1px;
+      padding: 4px 8px;
+   top: 1px;
+        height: 36px;
+        width:100vw;
+       
+    }
+    .head1{
+        display: flex;
+        float: left;
+        /* padding: 2px 15px; */
+        background:url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/nav-bg.gif") repeat-x scroll 0 -5px #e2e1e1;
+        line-height: 25px;
+        text-align: center;
+        align-items: center;
+    }
+    .head2{
+        display: flex;
+        margin-left: -590px;
+        float: right;
+    }
+    .head2 li{
+        cursor: pointer;
+        width: 110px;
+        margin-left: 20px;
+        font-size: 11px;
+        padding-top: 3px;
+        list-style: none;
+       
+    }
+    .head1 li{
+        cursor: pointer;
+        list-style: none;
+        width: 60px;
+        text-align: center;
+        align-items: center;
+        font-size: 11px;
+        display: inline-block;
+        border-right: 1px solid grey;
+        padding-left: 2px;
+    }
+    .head2 p{
+        margin-left: 10px;
+    }
+    
+    .head1 li:nth-child(3){
+        border: none;
+    }
+    .head2 li:nth-child(1){
+        margin-left: 20px;
+        border-right: 1px solid grey;
+    }
+    .small-txt{
+        color: black;
+        margin-top: 4px;
+        font-size: 11px;
+        font-weight: 570;
+    }
+    .medium-txt{
+        color: black;
+        font-size: 15px;
+        font-weight: 570;
+    }
+    .large-txt{
+        color: black;
+        font-size: 18px;
+        margin-top: -2px;
+        font-weight: 570;
+    }
+    select{
+        margin-left: 5px;
+        padding: 1px;
+    }
+    .main-body{
+      height: 100vh;
+      width: 86vw;
+      left: 7%;
+      position: relative;
+  }
+  /* =======head start ====== */
+  main{
+      height: 110px;
+      left: -54px;
+      width: 100vw;
+      position: relative;
+      top: 0px;
+      height: 70px;
+      border-bottom: 7px solid #c05433;
+      background-image: url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/header.jpg");
+  }
+  .head-left-con{
+      float: left;
+      padding: 7px;
+  
+  }
+  .head-left-img1{
+      width: 200px;
+      margin-left: 10px;
+     position:absolute;
+      height: 50px;
+  }
+  .head-left-img2{
+      padding: 10px 10px;
+      background-color: white;
+      border-radius: 10px;
+      height: 50px;
+      position:absolute;
+      top: 7px;
+      left: 225px;
+  }
+  .head-left-img3{
+      position: relative;
+      top: -0px;
+      height: 50px;
+      left: 490px;
+      
+  }
+  .head-left-con input{
+      position: relative;
+      left: 520px;
+      top: -20px;
+      width: 130px;
+      padding: 2px 6px;
+      border: none;
+  
+  }
+  .head-left-con button{
+      position: relative;
+      left: 510px;
+      cursor: pointer;
+      top: -20px;
+      padding: 3px 4px;
+      border: none;
+      background: #c05433;
+      color: white;
+  }
+  nav{display: block;
+    position: relative;
+    top: 0%;
+    left: -55px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    background:url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/nav-bg.gif") repeat-x scroll 0 -5px #e2e1e1;
+ 
+}
+.container {
+    overflow: hidden;
+    width: 100vw;
+ position: relative;
+ top: -19px;
+    /* background-color: #333; */
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    width: 110px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 12px;    
+    border: none;
+    outline: none;
+    color: black;
+    margin-top: 10px;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color:#c05433;
+    color: white;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color:#c05433;
+    min-width: 160px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container2 {
+  /* margin: 0 auto; */
+  margin-top: 0px;
+  position: relative;
+  width:100vw;
+  left: -8%;
+  height: 500px;
+  overflow: hidden;
+  /* height: 0; */
+  padding-bottom: 25%;
+  /* color: white; */
+  user-select: none;
+
+}
+.container2 input {
+  display: none;
+}
+.container2 .slide_img {
+  position: absolute;
+  width:100vw;
+
+  background-size: cover;
+  height:350px;
+  z-index: -1;
+}
+.container2 .slide_img img {
+  width: 100vw;
+  height: 300px;
+}
+.container2 .slide_img .prev, .container2 .slide_img .next {
+  height: 10px;
+  width: 50px;
+
+  transition: 0.45s; 
+  background-color:transparent;
+  cursor: pointer;
+  text-align: center;
+}
+.container2 .slide_img .next {
+  right: 270px;
+  top: 220px;
+  z-index: 1;
+}
+.container2 .slide_img .prev {
+  left:270px;
+  top: 220px;
+}
+.container2 .slide_img .prev:hover, .container2 .slide_img .next:hover {
+  transition: 0.3s;
+
+}
+.container2 .slide_img .prev span, .container2 .slide_img .next span {
+ color: white;
+ font-size: 40px;
+} 
+
+
+.container2 #nav_slide {
+  width: 100%;
+  bottom: 12%;
+  height: 11px;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+  cursor: default;
+}
+.container2 #nav_slide .dots {
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  margin: 0 3px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+  cursor: pointer;
+}
+.container2 #nav_slide #dot1:hover {
+  background: #795548;
+}
+.container2 #nav_slide #dot2:hover {
+  background: #F44336;
+}
+.container2 #nav_slide #dot3:hover {
+  background: #2196F3;
+}
+.container2 #nav_slide #dot4:hover {
+  background: #4CAF50;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four {
+  z-index: 9;
+  animation: scroll 1s ease-in-out;
+}
+
+#i1:checked ~ #nav_slide #dot1 {
+  background: #795548;
+}
+
+#i2:checked ~ #nav_slide #dot2 {
+  background: #F44336;
+}
+
+#i3:checked ~ #nav_slide #dot3 {
+  background: #2196F3;
+}
+
+#i4:checked ~ #nav_slide #dot4 {
+  background: #4CAF50;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.img-text{
+  width: 100vw;
+  height: 50px;
+  font-size: 12px;
+  background-color: #21463f;
+  padding: 9px 10px;
+  top: -200px;
+  left: -8%;
+  position: relative;
+  color: white;    text-align: center;
+  align-items: center;
+}
+.marquee {
+  width: 88vw;
+  margin-top: -31%;
+  /* padding:40px; */
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marquee:hover .marquee__item {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.marquee__seperator {
+  margin: 0 2rem;
+  /* padding-left: 20px; */
+}
+.marquee__item {
+  display: inline-block;
+  width: 84vw;
+ 
+  will-change: transform;
+  -webkit-animation: marquee 10s linear infinite;
+          animation: marquee 10s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.marquee {
+  background-color: #c05433;
+  padding: 8px 13px;
+margin-left: -9%;
+font-size: 12px;
+  color: #fff;
+}
+.maquee-text{
+  position: relative;
+  left:93%;color:white;
+  height: 31px;
+  padding-top: 5px;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  top: -31px;
+  background-color:#c05433;
+}
+.maquee-text a{
+  font-size: 14px;
+
+  color: white;
+}
+/* ===.marquee ends ===== */
+.triangle-down {
+  width: 0;
+  height: 0;
+  position: relative;
+  top: -6%;
+  left: 50%;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #c05433;
+}
+
+
+.con-box-main{
+  height: 580px;
+  position: relative;
+  width: 100vw;
+  top: -10%;
+  left: -8%;
+  z-index: -1;
+  background-image: url("https://www.joinindianarmy.nic.in/writereaddata/Portal/Images/applyonline-bg.jpg");
+}
+.con-div1{
+  height: 200px;
+  background-color: white;
+  width: 96vw;
+  left: 20px;
+  top: 20px;
+  padding: 20px;
+  border: 3px solid #c05433;
+ position: relative;
+}
+.con-div1 ul{
+  width: 600px;
+  /* background-color: #1c1c1c; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: -49px;
+  margin-left: 130px;
+
+}
+.con-div1 ul li{
+  list-style: none;
+  width: 80px;
+  height: 60px;
+  font-size: 10px;
+  border-right: 1px dotted grey;
+  padding: 10px;
+}
+#pointer {
+  width: 130px;
+  height: 35px;
+  left: -27px;
+  padding: 10px;
+  position: relative;
+  background:#c05433;
+}
+#pointer:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #c05433;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+#pointer:before {
+  content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #c05433;
+  border-top: 20 solid transparent;
+  border-bottom: 20px solid transparent;
+}
+#pointer h1{
+  color: white;
+  font-size: 12px;
+  margin-left: 10px;
+}
+  .sec-btn{
+    height: 50px;
+    width: 110px;
+    /* text-align: center; */
+    padding: 10px;
+    position: relative;
+    left: 77%;
+    top: -40%;
+    align-items: center;
+    background-color: #c05433;
+  }
+  .sec-btn h2{
+    color: white;
+    font-size: 12px;
+  }
+  .sec-btn button img{
+    background-color: #1c1c1c;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    font-size: 20px;
+  }
+
+
+
+  .con-div2{
+    height: 240px;
+    background-color: white;
+    width: 96vw;
+    left: 20px;
+  border-top: none;
+   
+    top: -51px;
+    padding: 20px;
+    border: 3px solid #2a5744;
+   position: relative;
+  }
+  .con-div2 ul{
+    width: 600px;
+    /* background-color: #1c1c1c; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: -49px;
+    margin-left: 130px;
+
+  }
+  .con-div2 ul li{
+    list-style: none;
+    width: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 60px;
+    font-size: 12px;
+    border-right: 1px dotted grey;
+    padding: 5px;
+  }
+  .con-div2 ul li img{
+    align-items: center;
+    margin-left: 20px;
+  }
+  #pointer2 {
+    width: 130px;
+    height: 35px;
+    left: -27px;
+    padding: 10px;
+    position: relative;
+    background:#2a5744;
+  }
+  #pointer2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #2a5744;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer2:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #2a5744;
+    border-top: 20 solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer2 h1{
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+    .sec-btn2{
+      height: 50px;
+      width: 110px;
+      /* text-align: center; */
+      padding: 10px;
+      position: relative;
+      left: 77%;
+      top: -40%;
+      align-items: center;
+      background-color: #2a5744;
+    }
+    .sec-btn2 h2{
+      color: white;
+      font-size: 12px;
+    }
+    .sec-btn2 button img{
+      background-color: #1c1c1c;
+      height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    font-size: 20px;
+    }
+
+    .marquee2{
+      width: 88vw;
+      /* padding:40px; */
+      margin-top: 60px;
+      cursor: pointer;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .marquee2:hover .marquee__item2{
+      -webkit-animation-play-state: paused;
+              animation-play-state: paused;
+    }
+    .marquee__seperator2 {
+      margin: 0 2rem;
+      /* padding-left: 20px; */
+    }
+    .marquee__item2 {
+      display: inline-block;
+      width: 84vw;
+     
+      will-change: transform;
+      -webkit-animation: marquee1 10s linear infinite;
+              animation: marquee1 10s linear infinite;
+    }
+    
+    @-webkit-keyframes marquee1 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    
+    @keyframes marquee1 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    .marquee2 {
+      background-color: #2a5744;
+      padding: 7px 10px;
+    cursor: pointer;
+    font-size: 12px;
+      color: #fff;
+    }
+    .maquee-text2{
+      position: relative;
+      left:87%;color:white;
+      height: 31px;
+      padding-top: 5px;
+      width: 100px;
+      text-align: center;
+      align-items: center;
+  
+    
+      top: -30px;
+      background-color:#2a5744;
+    }
+    .maquee-text2 a{
+    
+      color: white;
+    }
+
+
+
+    .triangle-down2 {
+      width: 0;
+      height: 0;
+      position: relative;
+      top: -5%;
+      left: 50%;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 20px solid #2a5744;
+      z-index: 1;
+    }
+  
+    .item2{
+      height: 500px;
+      width: 100vw;
+      position: relative;
+      top: 515px;
+      left: 0%;
+      background-image: url("https://joinindianarmy.nic.in/writereaddata/Portal/Images/mid-container-bg.jpg");
+    }
+    .flex-item{
+      display: flex;
+      padding-top: 30px;
+      justify-content: space-around;
+    }
+    .holder { 
+      background-color:whitesmoke;
+      width:180px;
+      height:170px;
+      font-size: 10px;
+      border: 1px solid #ddd;
+      overflow:hidden;
+      padding:10px;
+      font-family:Helvetica;
+    }
+    .holder-text{
+      height: 40px;
+      font-weight: 600;
+      font-size: 12px;
+      color: #c05433;
+      border-bottom: 1px solid black;
+    }
+    .holder .mask {
+      position: relative;
+      left: 0px;
+      top: 10px;
+      width:300px;
+      height:240px;
+      overflow: hidden;
+    }
+    .view{
+     padding: 5px;
+     font-size: 7px;
+    background-color: whitesmoke;
+    }
+    .view img{
+  top: 4px;
+    position: relative;
+    }
+    .view a{
+      color:#c05433;
+      font-size: 12px;
+    }
+    .holder ul {
+      list-style:none;
+      margin:0;
+      padding:0;
+      position: relative;
+    }
+    .holder ul li {
+      padding:10px 0px;
+    }
+    .holder ul li a {
+      color:darkred;
+      text-decoration:none;
+    }
+
+    /* ===== img slider ====  */
+.flex-con2{
+background-color: whitesmoke;
+border: 1px solid #ddd;
+width: 180px;
+height: 200px;
+text-align: center;
+}
+.view2{
+position: absolute;
+top:200px;
+text-align: left;
+padding: 3px;
+background-color: transparent;
+/* background-color: whitesmoke; */
+}
+.view2 img{
+top: 4px;
+position: relative;
+}
+.view2 a{
+ color:#c05433;
+ font-size: 12px;
+}
+.flex-con2-text{
+height: 40px;
+font-size: 10px;
+background-color:#ddd;
+}
+
+    .mySlides {
+      display: none;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+      /* width: 20%; */
+      height: 10%;
+      /* max-height: 100vh; */
+      margin: auto;
+  }
+  /* The dots/bullets/indicators */
+  .mySlides img{
+    margin-top: 3px;
+    height: 130px;
+    width: 180px;
+  }
+  
+  
+  .active {
+      background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+      from {
+          opacity: .4
+      }
+  
+      to {
+          opacity: 1
+      }
+  }
+  
+  @keyframes fade {
+      from {
+          opacity: .4
+      }
+  
+      to {
+          opacity: 1
+      }
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+  
+      .prev,
+      .next,
+      .text {
+          font-size: 11px
+      }
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+      cursor: pointer;
+      position: absolute;
+      top: 30%;
+      width: auto;
+      background-color: #717171;
+      padding: 5px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+  }
+  .prev{
+    left:360px;
+  }
+  /* Position the "next button" to the right */
+  .next {
+      right: 552px;
+      border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .flex-con3{
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    width: 180px;
+    text-align: center;
+  }
+  .flex-con3 h1{
+    font-size: 18px;
+  }
+  .flex-con3 video{
+    height: 190px;
+    margin-top: -50px;
+    width: 180px;
+  }
+  .flex-con3-text{
+    font-size: 13px;
+    height:50px;
+ 
+    background-color:#ddd;
+  }
+  .holder-text2{
+    height: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    color:#2a5744;
+    border-bottom: 1px solid black;
+  }
+  .view3{
+    padding: 10px;
+    margin-top: -35px;
+    margin-left: 30px;
+    z-index: 1;
+   background-color: whitesmoke;
+   }
+   .view3 img{
+ top: 4px;
+   position: relative;
+   }
+   .view3 a{
+     color:#c05433;
+     margin-left: -140px;
+     font-size: 12px;
+   }
+
+   /* =====bottom div=====  */
+   .bottom-div{
+    height: 50px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    background-image: url("https://joinindianarmy.nic.in/writereaddata/Portal/images/footer-link-bg.jpg");
+   }
+   .bottom-div ul{
+    display: flex;
+    margin: 1px 2px;
+    
+    width: 98vw;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    /* padding-bottom: 1px; */
+    justify-content: space-around;
+   }
+   .bottom-div ul li{
+    list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding: 10px;
+   font-size: 13px;
+  width: 20%;
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+   
+   .bottom-div ul li a{
+    color: white;
+    text-decoration: none;
+   }
+   footer{
+    padding: 4px;
+   }
+   footer ul li{
+    float: left;
+    margin: 0;
+    /* padding: 0; */
+    float: left;
+     
+    /* width: 10%; */
+    border-right: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+  color: #6d6e71;
+  text-decoration: none;
+  font-size:11px;
+   }
+  footer .copyright{
+    top: 350px;
+    position: absolute;
+    left:10px;
+    /* text-wrap: wrap; */
+    font-size: 13px;
+    width: 100vw;
+    color: #6d6e71;
+   }
+   footer .copyright img{
+    margin-left: 100px;
+    margin-top: 10px;
+   }
+   footer .copyright a{
+    color: blue;
+   }
+   .footer-right{
+    position:absolute;
+    left: 180px;
+    gap: 30px;
+    top: 380px;
+   }
+   .footer-right img{
+    height: 50px;
+    width: 100px;
+   }
+     }
